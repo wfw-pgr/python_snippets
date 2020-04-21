@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: execute-
+# key: execute-
+# --
+
+# ======================================== #
+# ===  実行部                          === #
+# ======================================== #
+if ( __name__=="__main__" ):
+    import myUtils.genArgs as gar
+    args    = gar.genArgs()
